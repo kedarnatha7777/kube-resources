@@ -1,0 +1,13 @@
+kind: Pod
+apiVersion: v1 
+metadata: 
+  name: annotations
+  labels:
+    project: expense
+  annotations:
+     imageregistry: "https://hub.docker.com/"
+     jenkis_url: 'http://jenkins/backend/89'
+spec:
+  containers:
+    - name: nginx
+      image: nginx
