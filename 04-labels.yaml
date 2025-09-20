@@ -1,0 +1,13 @@
+kind: Pod 
+apiVersion: v1 
+metadata:
+  name: labels 
+  labels:
+    course: k8s 
+    duration: 300hrs 
+    trainer: siva 
+spec:
+  containers:
+    - name: nginx 
+      image: nginx
+      
