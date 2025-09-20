@@ -1,0 +1,13 @@
+kind: Pod 
+apiVersion: v1 
+metadata: 
+  name: multipods 
+spec: 
+  containers: 
+    - name: nginx 
+      image: nginx 
+    - name: alma
+      image: almalinux:9 
+      command:  
+        - sleep 
+        - "8000"
