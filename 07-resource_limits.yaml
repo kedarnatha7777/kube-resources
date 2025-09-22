@@ -16,3 +16,5 @@ spec:
           memory : "100Mi"
           cpu: "128m"
    
+# describe and check the pod limitations of the resources of cpu & Memory 
+# please check the syntax of Mi and m 
