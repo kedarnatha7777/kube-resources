@@ -1,7 +1,7 @@
 kind: Pod
 apiVersion: v1
 metadata: 
-  name: resource_limits 
+  name: resource-limits 
   labels: 
     project: expense 
 spec: 
