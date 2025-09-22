@@ -9,11 +9,11 @@ spec:
     - name: nginx
       image: nginx
       resources: 
-        request:
+        requests:
           memory : "100mi"
           cpu: "128m"
          
         limits:
           memory : "64mi"
           cpu: "64m"
-
+   
