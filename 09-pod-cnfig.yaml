@@ -9,18 +9,18 @@ spec:
       env:  
         - trainer : TRAINER_NAME
           valueFrom:
-            ConfigMapRef: 
+            configMapRef: 
               name: config-map
-              value: trainer 
+              key : trainer 
         - duration: time
           valueFrom: 
-              ConfigMapRef:
+              configMapRef:
                 name: config-map
-                value: duration 
+                key : duration 
         - course: course_name 
           valueFrom: 
-            ConfigMapRef:
+            configMapRef:
               name: config-map
-              value: course
+              key : course
 
 
