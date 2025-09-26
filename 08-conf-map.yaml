@@ -1,0 +1,8 @@
+kind: Pod
+apiVersion: ConfigMap  
+metadata: 
+  name: config-map 
+data:
+  course : devops 
+  trainer: siva kumar 
+  duration: 150days 
