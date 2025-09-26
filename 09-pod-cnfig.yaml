@@ -22,7 +22,7 @@ spec:
       #       configMapKeyRef:
       #         name: config-map
       #         key : course
-      env: 
+      envFrom: 
         configMapRef:
           name: config
 
