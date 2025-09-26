@@ -1,5 +1,5 @@
-kind: Pod
-apiVersion: ConfigMap  
+kind: ConfigMap
+apiVersion: v1  
 metadata: 
   name: config-map 
 data:
