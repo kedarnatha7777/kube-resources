@@ -24,6 +24,6 @@ spec:
       #         key : course
       envFrom: 
         configMapRef:
-          name: config
+          name: config-map
 
 
